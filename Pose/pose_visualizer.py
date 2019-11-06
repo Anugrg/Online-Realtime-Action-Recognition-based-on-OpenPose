@@ -9,7 +9,7 @@ from .pose_estimator import estimate
 class TfPoseVisualizer:
     # the thickness of showing skeleton
     Thickness_ratio = 2
-
+    #the target size is fixed??
     def __init__(self, graph_path, target_size=(368, 368)):
         self.target_size = target_size
         # load graph
